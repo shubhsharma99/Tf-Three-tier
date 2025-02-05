@@ -1,0 +1,19 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore Crash log files
+crash.log
+
+# Ignore override files
+override.tf
+override.tf.json
+
+# Ignore .terraform directory (local module installation, etc.)
+.terraform/
+
+# Ignore the Terraform plan files (optional, can be large)
+*.tfplan
+
+# Ignore backups created by Terraform (optional)
+*.bak
